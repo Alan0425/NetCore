@@ -1,0 +1,136 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\spc04\\OneDrive\\Desktop\\C#\\NetCore\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3C1B2F55-36C9-4511-A92F-1A8BBE5A8C8E}|NetCore.csproj|c:\\users\\spc04\\onedrive\\desktop\\c#\\netcore\\controllers\\membercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C1B2F55-36C9-4511-A92F-1A8BBE5A8C8E}|NetCore.csproj|solutionrelative:controllers\\membercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C1B2F55-36C9-4511-A92F-1A8BBE5A8C8E}|NetCore.csproj|c:\\users\\spc04\\onedrive\\desktop\\c#\\netcore\\views\\member\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3C1B2F55-36C9-4511-A92F-1A8BBE5A8C8E}|NetCore.csproj|solutionrelative:views\\member\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C1B2F55-36C9-4511-A92F-1A8BBE5A8C8E}|NetCore.csproj|c:\\users\\spc04\\onedrive\\desktop\\c#\\netcore\\models\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C1B2F55-36C9-4511-A92F-1A8BBE5A8C8E}|NetCore.csproj|solutionrelative:models\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C1B2F55-36C9-4511-A92F-1A8BBE5A8C8E}|NetCore.csproj|c:\\users\\spc04\\onedrive\\desktop\\c#\\netcore\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3C1B2F55-36C9-4511-A92F-1A8BBE5A8C8E}|NetCore.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C1B2F55-36C9-4511-A92F-1A8BBE5A8C8E}|NetCore.csproj|c:\\users\\spc04\\onedrive\\desktop\\c#\\netcore\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C1B2F55-36C9-4511-A92F-1A8BBE5A8C8E}|NetCore.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C1B2F55-36C9-4511-A92F-1A8BBE5A8C8E}|NetCore.csproj|c:\\users\\spc04\\onedrive\\desktop\\c#\\netcore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C1B2F55-36C9-4511-A92F-1A8BBE5A8C8E}|NetCore.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C1B2F55-36C9-4511-A92F-1A8BBE5A8C8E}|NetCore.csproj|c:\\users\\spc04\\onedrive\\desktop\\c#\\netcore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3C1B2F55-36C9-4511-A92F-1A8BBE5A8C8E}|NetCore.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\spc04\\OneDrive\\Desktop\\C#\\NetCore\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\spc04\\OneDrive\\Desktop\\C#\\NetCore\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-20T10:20:48.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MemberController.cs",
+              "DocumentMoniker": "C:\\Users\\spc04\\OneDrive\\Desktop\\C#\\NetCore\\Controllers\\MemberController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MemberController.cs",
+              "ToolTip": "C:\\Users\\spc04\\OneDrive\\Desktop\\C#\\NetCore\\Controllers\\MemberController.cs",
+              "RelativeToolTip": "Controllers\\MemberController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T02:41:13.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\spc04\\OneDrive\\Desktop\\C#\\NetCore\\Views\\Member\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Member\\Index.cshtml",
+              "ToolTip": "C:\\Users\\spc04\\OneDrive\\Desktop\\C#\\NetCore\\Views\\Member\\Index.cshtml",
+              "RelativeToolTip": "Views\\Member\\Index.cshtml",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAAAGwAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-20T02:35:46.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Member.cs",
+              "DocumentMoniker": "C:\\Users\\spc04\\OneDrive\\Desktop\\C#\\NetCore\\Models\\Member.cs",
+              "RelativeDocumentMoniker": "Models\\Member.cs",
+              "ToolTip": "C:\\Users\\spc04\\OneDrive\\Desktop\\C#\\NetCore\\Models\\Member.cs",
+              "RelativeToolTip": "Models\\Member.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T02:32:32.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\spc04\\OneDrive\\Desktop\\C#\\NetCore\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\spc04\\OneDrive\\Desktop\\C#\\NetCore\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T02:29:45.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\spc04\\OneDrive\\Desktop\\C#\\NetCore\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\spc04\\OneDrive\\Desktop\\C#\\NetCore\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T02:27:28.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\spc04\\OneDrive\\Desktop\\C#\\NetCore\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\spc04\\OneDrive\\Desktop\\C#\\NetCore\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-20T02:23:06.662Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

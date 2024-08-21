@@ -1,0 +1,142 @@
+﻿@model List<Member>
+
+<div class="container">
+    <div class="row pt-4 pb-3">
+        <div class="col-6">
+            <h2 class="text-primary">
+                會員清單
+            </h2>
+        </div>
+        <div class="col-6 text-end">
+            <a asp-controller="Member" asp-action="Create" class="btn btn-primary">
+                <i class="bi bi-plus-circle"></i> 新增會員
+            </a>
+        </div>
+    </div>
+    <div class="text-center">
+        <h1 class="display-4">SkillTree</h1>
+        <div>
+            中文姓名:<input type="text" name="cname" id="txt_cname" />
+            英文姓名:<input type="text" name="ename" id="txt_ename" /><br>
+            email:<input type="text" name="email" id="txt_email" />
+            電話:<input type="text" name="tel" id="txt_tel" />
+            <input type="button" id="get-member" value="搜尋" /><br><br>
+        </div>
+    </div>
+
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>編號</th>
+                <th>中文姓名</th>
+                <th>英文姓名</th>
+                <th>Email</th>
+                <th>電話</th>
+                <th>身分證</th>
+                <th>註冊日</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var obj in Model.OrderBy(u => u.Id))
+            {
+                <tr>
+                    <td>@obj.Id</td>
+                    <td>@obj.Cname</td>
+                    <td>@obj.Ename</td>
+                    <td>@obj.Email</td>
+                    <td>@obj.Tel</td>
+                    <td>@obj.Identification</td>
+                    <td>@obj.CreateTime</td>
+                    <td>
+                        <div class="w-75 btn-group" role="group">
+                            <a asp-controller="Member" asp-action="Edit" asp-route-id="@obj.Id" class="btn btn-primary mx-2">
+                                <i class="bi bi-pencil-square"></i>編輯
+                            </a>
+                            <a asp-controller="Member" asp-action="Delete" asp-route-id="@obj.Id" class="btn btn-danger mx-2">
+                                <i class="bi bi-trash-fill"></i>刪除
+                            </a>
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <table id="tblData" class="table table-bordered table-striped" style="width:100%">
+        <thead>
+            <tr>
+                <th>編號</th>
+                <th>中文姓名</th>
+                <th>英文姓名</th>
+                <th>Email</th>
+                <th>電話</th>
+                <th>身分證</th>
+                <th>註冊日</th>
+            </tr>
+        </thead>
+    </table>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            //$('#tblData').DataTable();
+            //loadDataTable();
+        });
+
+    
+        $(function () {
+            $("#get-member").click(getMember);
+        });
+        function getMember() {
+            let targetUrl = $(this).data("url");
+            let cname = $("#txt_cname").val();
+            let ename = $("#txt_ename").val();
+            let email = $("#txt_email").val();
+            let tel = $("#txt_tel").val();
+            $('#tblData').DataTable({
+                "ajax": {
+                    url: targetUrl,
+                    type: 'POST',
+                    data: {
+                        p1: cname,
+                        p2: ename,
+                        p3: email,
+                        p4: tel,
+                    },
+                    dataType: "json"
+                },
+                "destroy":true,
+                "columns": [
+                    { data: 'id', "width": "25%" },
+                    { data: 'cname', "width": "15%" },
+                    { data: 'ename', "width": "10%" },
+                    { data: 'email', "width": "15%" },
+                    { data: 'tel', "width": "10%" },
+                    { data: 'identification', "width": "10%" },
+                    { data: 'createTime', "width": "10%" }
+                ]
+            });
+        }
+
+        $(function () {
+            $("[data-url]").on("click", function () {
+
+                let targetUrl = $(this).data("url");
+                $.ajax({
+                    type: "POST",
+                    url: targetUrl,
+                    data: "q=" + $("#a").val(),
+                    dataType: "json",
+                    success: function (response) {
+                        alert(response.test);
+                    }
+                });
+            });
+
+        });
+    </script>
+}
+
+
